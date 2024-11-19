@@ -1,0 +1,468 @@
+.main-getapp{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+   
+ 
+}
+.getapp{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+   
+   
+}
+.getapp-span{
+    font-weight: 500;
+    font-size: 35px;
+    text-align: left;
+    
+}
+.getapp-hr{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+   
+}
+.getapp-text{
+  line-height: 35px;
+  text-align: center;
+}
+/* downlaod button and text */
+.download{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin-top: 3rem;
+}
+.download-span{
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    
+}
+.download-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2rem;
+    width: 45vw;
+   
+    
+   
+
+}
+.app-store-google-btn{
+    background-color: black;
+    border-radius: 0.5rem;
+    height: 13vh;
+    width: 15vw;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hover:button */
+.app-store-google-btn:hover{
+   background-color:blue;
+   transition: all;
+   transition-duration: 0.2s;
+}
+
+/* images of phone */
+.image-getphone{
+
+    width: 70%;
+    margin: auto;
+    
+}
+.getapp-phone{
+
+/* position: absolute; */
+/* right: 0; */
+width: 100%;
+margin-top: 2rem;
+/* top: 35%; */
+
+}
+
+/* resposnive  */
+
+@media(max-width:321px){
+
+    .download-span{
+        font-weight: 400;
+        font-size: 15px;
+        text-align: justify;
+        
+    }
+
+    .download-btn{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        gap: 3rem;
+        height: 27vh;
+        margin-bottom: 2rem;
+      
+    }
+
+    .app-store-google-btn{
+        background-color: black;
+        border-radius: 0.5rem;
+        width: 100%;
+        padding: 5px;
+        height: 100%;
+     
+    }
+  
+    .app-store-image{
+       
+        width: 30vw;
+       
+    }
+ 
+
+    .getapp-hr {
+      
+        width: 30%;
+    }
+   
+     .image-getphone {
+        width: 70%;
+      
+    }
+
+}
+
+@media(min-width:321px){
+ 
+    .getapp-hr {
+      
+        width: 40%;
+    }
+  
+    .download-btn{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        gap: 3rem;
+        height: 22vh;
+        margin-bottom: 2.5rem;
+      
+    }
+
+    .app-store-google-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0.5rem;
+        width: 90%;
+        padding: 15px;
+        height: 75%;
+     
+    }
+
+    .image-getphone {
+        width: 80%;
+      
+    }
+}
+
+@media(min-width:470px){
+    .getapp-text {
+        max-width: 100%;
+        text-align: justify;
+
+    }
+    .download-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+       
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+      
+    }
+
+    .app-store-google-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0.5rem;
+        width: 30vw;
+        min-height: 12vh;
+    }
+
+    .getapp-hr {
+      
+        width: 30%;
+    }
+  
+
+    .image-getphone {
+        width: 75%;
+      
+      
+    }
+}
+
+@media(min-width:599px){
+
+    .download-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+      
+    }
+
+    .app-store-google-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0.5rem;
+        max-width: 25vw;
+        min-height: 12vh;
+    
+    }
+
+}
+
+@media(min-width:750px){
+
+    .download-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+      
+    }
+
+    .app-store-google-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0.5rem;
+        max-width: 20vw;
+        min-height: 12vh;
+    
+    }
+
+
+    .getapp-phone {
+        width: 85%;
+    }
+
+    .getapp-text {
+        max-width: 85%;
+        text-align: justify;
+
+      
+    }
+
+    .getapp-hr {
+      
+        width: 20%;
+    }
+  
+
+}
+
+@media(min-width:850px){
+  
+    .getapp-text {
+        max-width: 80%;
+        text-align: justify;
+
+      
+    }
+
+    .getapp-hr {
+      
+        width: 20%;
+    }
+
+    
+    .download-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 7rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+      height: 100%;
+      width: 45vw;
+    }
+
+    .app-store-google-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0.5rem;
+        padding: 5px;
+    
+    }
+
+
+      .image-getphone {
+        width: 75%;
+        position: relative;
+    }
+    .getapp-phone {
+       position: absolute;
+       right: -10%;
+       bottom: 0;
+       width: 60%;
+       transform: translate(10%,-10%);
+        
+    }  
+}
+
+ @media(min-width:1050px){
+  
+    .getapp-text {
+        max-width: 65%;
+        text-align: cemter;
+
+    }
+
+    
+    .download-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+       height: 100%;
+       width: 40vw;
+    }
+
+    .app-store-google-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0.5rem;
+        width: 35vw;
+        height: 10vh;
+        padding: 10px;
+    
+    }
+
+    .getapp-hr {
+      
+        width: 15%;
+    }
+    
+    .image-getphone {
+        width: 70%;
+        position: relative;
+
+    }
+    .getapp-phone {
+       position: absolute;
+       right: 0;
+       width: 60%;
+       transform: translate(30%,-15%);
+        
+    }
+    
+   
+} 
+
+@media(min-width:1230px){
+
+    .download-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+        width: 35vw;
+        height: 20vh;
+    }
+
+    .app-store-google-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0.5rem;
+        width: 40vw;
+        height: 10vh;
+        padding: 15px;
+    
+    }
+
+
+}
+
+@media(min-width:1400px){
+   
+    .getapp-text {
+        max-width: 80%;
+        text-align: cemter;
+
+    }
+
+    .getapp-hr {
+      
+        width: 15%;
+    }
+
+    .download{
+        margin-top: 5rem;
+    }
+    
+
+    .download-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 15rem;
+        margin-top:5rem;
+        width: 40vw;
+        height: 20vh;
+    }
+
+    .app-store-google-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 0.5rem;
+        width: 30vw;
+        padding: 15px;
+    
+    }
+
+
+    .image-getphone {
+        width: 75%;
+        position: relative;
+
+    }
+    .getapp-phone {
+       position: absolute;
+       right: 0;
+       width: 65%;
+       bottom: 0;
+       transform: translate(20%,0%);
+        
+    }
+    
+}

@@ -1,0 +1,268 @@
+.team-main {
+    background-image: url(../../images/team_img/team.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+    position: relative;
+
+}
+
+.team-content {
+    background-color: blue;
+    height: 100vh;
+    opacity: 0.6;
+
+}
+
+.team-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+.team-row {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    overflow: hidden;
+
+}
+
+.team-item-col {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .team-hr
+    {
+    width: 100%;
+    height: 0px;
+}
+
+.team-item-col:hover{
+    transition-duration: 0.3s;
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.414), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.team-media{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #606060;
+}
+
+
+.team-fa{
+  border-radius: 50%;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  font-size: 12px; 
+   
+}
+
+.team-fa:hover{
+    color: white;
+    background-color: #785FE8;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+/* responsive part */
+@media(max-width:1060px){
+
+   .team-top{
+        margin-bottom: 23rem;
+ 
+    }
+    .team-content {
+     
+        height: 1010px;
+     
+    }
+    
+    
+    .team-media{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        color: #606060;
+    }
+    
+    .team-row {
+        position: absolute;
+        top: 100%;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        overflow: hidden;
+       
+    
+    }
+}
+
+@media(max-width:1000px){
+    .team-top{
+        margin-bottom: 20rem;
+ 
+    }
+    .team-content {
+     
+        height: 965px;
+     
+    }
+
+
+    .team-media{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        color: #606060;
+    }
+    
+    .team-row {
+        position: absolute;
+        top: 100%;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        overflow: hidden;
+       
+    
+    }
+   
+}
+
+
+@media(max-width:915px){
+
+    .team-top{
+        margin-bottom: 37.8rem;
+        
+    }
+    .team-content {
+     
+        height: 1250px;
+     
+    }
+
+    .team-row {
+        position: absolute;
+        top: 100%;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        overflow: hidden;
+    
+    }
+   
+}
+
+@media(max-width:840px){
+
+    .team-top{
+        margin-bottom: 31.5rem;
+        
+    }
+    .team-content {
+     
+        height: 1150px;
+     
+    }
+}
+
+@media(max-width:769px){
+    .team-content {
+     
+        height: 1800px;
+     
+    }
+    .team-top{
+        margin-bottom:70rem ;
+    }
+
+    .team-row {
+        position: absolute;
+        top: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        overflow: hidden;
+    
+    }
+   
+}
+
+@media(min-width:1061px){
+
+    .team-content {
+     
+        height: 100vh;
+     
+    }
+
+
+
+    .team-media{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        color: #606060;
+    }
+    
+    .team-row {
+        position: absolute;
+        top: 100%;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        overflow: hidden;
+    
+    }
+}
+

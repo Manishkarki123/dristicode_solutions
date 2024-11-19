@@ -1,0 +1,20 @@
+.faq-text-content{
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+.faq-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.plus-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

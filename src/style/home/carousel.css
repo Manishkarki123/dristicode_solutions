@@ -1,0 +1,311 @@
+.carousel-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+
+.slider-wrapper {
+  width: 100%;
+  margin: auto;
+  
+}
+
+  .slick-slide {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:5rem;
+   
+
+  }
+
+  .slick-image{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .slick-col{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:10vw;
+    
+
+  }
+  .slick-slide-name {
+   
+    font-size:1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    width: 80%;
+  }
+
+  .slick-slide-date{
+    font-size: 1.2rem;
+   
+    margin-bottom: 2rem;
+
+  }
+  .slick-slide-image {  
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 8px;
+   object-fit: contain;
+  }
+
+
+  /* responsive design */
+
+   @media(max-width:321px){
+  .carousel-text{
+    font-size: 1.5rem;
+  }
+
+    .slick-slide {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin:2rem;
+     
+  
+    }
+  
+    .slick-image{
+      width: 70vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    .slick-col{
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:80vw;
+      
+  
+    }
+    .slick-slide-name {
+     
+      font-size:1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+     
+    }
+  
+    .slick-slide-date{
+      font-size: 1rem;
+      margin-bottom: 2rem;
+  
+    }
+    .slick-slide-image {  
+      aspect-ratio: 1/1;
+      width: 100%;
+      border-radius: 8px;
+     object-fit: contain;
+    }
+  }
+
+
+  @media(min-width:321px){
+    .carousel-text{
+      font-size: 1.5rem;
+    }
+  
+      .slick-slide {
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:2rem;
+       
+    
+      }
+    
+      .slick-image{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+      }
+      .slick-col{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:60vw;
+        
+    
+      }
+      .slick-slide-name {
+        font-size:1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+      }
+    
+      .slick-slide-date{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    
+      }
+      .slick-slide-image {  
+        aspect-ratio: 1/1;
+        width: 100%;
+        border-radius: 8px;
+       object-fit: contain;
+      }
+  }
+
+   @media(min-width:465px){
+    .carousel-text{
+      font-size: 1.5rem;
+    }
+  
+      .slick-slide {
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:2rem;
+       
+    
+      }
+    
+      .slick-image{
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+      }
+
+      .slick-slide-image {  
+        aspect-ratio: 1/1;
+        width: 100%;
+        border-radius: 8px;
+        object-fit: contain;
+      }
+      .slick-col{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:45vw;
+        
+    
+      }
+      .slick-slide-name {
+        font-size:1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+      }
+    
+      .slick-slide-date{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    
+      }
+    
+
+  }
+    
+  @media(min-width:1025px){
+ 
+   
+    .carousel-text{
+      font-size: 2rem;
+    }
+  
+      .slick-slide {
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:2rem;
+       
+    
+      }
+    
+      .slick-image{
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+      }
+
+      .slick-slide-image {  
+        aspect-ratio: 1/1;
+        width: 100%;
+        border-radius: 8px;
+        object-fit: contain;
+      }
+      .slick-col{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:30vw;
+        
+    
+      }
+      .slick-slide-name {
+        font-size:1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+      }
+    
+      .slick-slide-date{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    
+      }
+
+  }
+
+   

@@ -1,0 +1,133 @@
+.main-overview{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+ 
+}
+.span-over{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.line{
+    justify-content: center;
+    align-items: center;
+}
+.overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.para{
+display: flex;
+flex-direction: column; 
+justify-content: center;
+align-items: center;
+margin: 0;
+text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+.values{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s;
+    padding: 15px;
+  
+}
+.values:hover{
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0px 10px 20px 0 rgba(0.6, 0, 0, 0.19);
+}
+
+
+/* responsive design  */
+
+@media(max-width:401px){
+.span-over{
+    margin-top: 1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+}
+
+@media(min-width:401px){
+  /* .main-overview{
+    margin-top: 4rem;
+  } */
+  .card{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  }
+
+  
+@media(min-width:770px){
+
+  .card{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-top: 3rem;
+  }
+  }
+
+
+@media(min-width:991px){
+
+  .card{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-top: 3rem;
+  }
+  
+  }
+
+@media(min-width:991px){
+
+  .card{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-top: 3rem;
+  }
+  
+  }
+
+
+  @media(min-width:1250px){
+
+  .card{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-top: 3rem;
+  }
+  
+  }

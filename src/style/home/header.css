@@ -1,0 +1,369 @@
+.bg-img {
+clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .img-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid green;
+} */
+
+.text1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: white;
+    margin: 0;
+   
+}
+
+.text2 {
+    color: white;
+    font-weight: normal;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+/* animation to the iphone image */
+
+.iphones {
+   
+    align-items: center;
+    justify-content: center;
+    float: right;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    transform: translate(-30%, 20%);
+  
+   
+}
+
+
+.iphone1{
+    position: relative;
+    width: 95%;
+}
+.iphone2 {
+    position: absolute;
+    transform: translate(-30%, 16%);
+    width: 70%;
+
+}
+
+/* responsive designs */
+@media(max-width:321px){
+.iphones{
+    width: 70%;
+    position: absolute;
+    bottom: -25%;
+    left: 40%;
+    
+}
+.header-main{
+    margin-bottom: 8.5rem;
+}
+.text{
+   
+    transform: translate(-5%,-20%);
+   
+}
+
+.text1{
+  font-size: 1.5rem;
+  transform: translateY(-50%);
+}
+.text2{
+    font-size: 0.9rem;
+   
+}
+}
+
+@media(min-width:321px){
+    .iphones{
+        width: 60%;
+        position: absolute;
+        bottom: -10%;
+        left: 45%;
+        
+    }
+
+    .header-main{
+
+        margin-bottom: 4rem;
+    }
+
+    .text{
+       
+        transform: translate(-5%,-20%);
+    }
+    .text1{
+      font-size: 2rem;
+      transform: translateY(-50%);
+    }
+    .text2{
+        font-size: 1rem;
+        margin-bottom: 15rem;
+
+    }
+}
+
+@media(min-width:400px){
+    .iphones{
+        width: 55%;
+        position: absolute;
+        bottom: -15%;
+        left: 45%;
+        
+    }
+
+    .header-main{
+
+        margin-bottom: 8rem;
+    }
+
+    .text{
+       
+        transform: translate(-5%,-20%);
+    }
+    .text1{
+      font-size: 2rem;
+      transform: translateY(-50%);
+    }
+    .text2{
+        font-size: 1rem;
+        margin-bottom: 15rem;
+
+    }
+}
+
+@media(min-width:500px){
+    .iphones{
+        width: 40%;
+        position: absolute;
+        bottom: -25%;
+        left: 50%;
+      
+    }
+    .header-main{
+        margin-bottom: 10rem;
+    }
+    .text{
+       
+        transform: translate(-5%,-10%);
+    }
+    .text1{
+      font-size: 3rem;
+      transform: translateY(-50%);
+    }
+    .text2{
+        font-size: 1rem;
+        margin-bottom: 20rem;
+    }
+}
+
+@media(min-width:600px){
+    .text{
+       
+        transform: translate(-5%,-10%);
+    }
+    .text1{
+        font-size: 2.5rem;
+        transform: translateY(-25%);
+      }
+      .text2{
+        font-size: 1rem;
+        margin-bottom: 24rem;
+    }
+    .iphones{
+        width: 38%;
+        position: absolute;
+        bottom: -15%;
+        left: 50%;
+    } 
+    .header-main{
+        margin-bottom: 9rem;
+    }
+}
+
+@media(min-width:702px){
+    .text{
+       
+        transform: translate(-5%,-15%);
+    }
+    .text1{
+        font-size: 2.5rem;
+        transform: translateY(-20%);
+      }
+    .iphones{
+        width: 30%;
+        position: absolute;
+        bottom: -20%;
+        left: 50%;
+    } 
+    .header-main{
+        margin-bottom: 8rem;
+    }
+}
+
+@media(min-width:777px){
+    .text{
+       
+        transform: translate(-5%,-10%);
+    }
+    .text1{
+        font-size: 2.5rem;
+        transform: translateY(-20%);
+      }
+    .iphones{
+        width: 35%;
+        position: absolute;
+        bottom: -35%;
+        left: 70%;
+    } 
+    .header-main{
+        margin-bottom: 16rem;
+    }
+}
+@media(min-width:890px){
+    .text{
+       
+        transform: translate(-10%,-10%);
+    }
+    .text1{
+        font-size: 2.5rem;
+        transform: translateY(-20%);
+      }
+    .iphones{
+        width: 35%;
+        position: absolute;
+        bottom: 30%;
+        left: 75%;
+        /* transform: translateY(10%); */
+    } 
+    .header-main{
+        margin-bottom: 0rem;
+    }
+}
+
+@media(min-width:950px){
+    .text{
+       
+        transform: translate(-10%,-10%);
+    }
+    .text1{
+        font-size: 2.5rem;
+        transform: translateY(-20%);
+      }
+    .iphones{
+        width: 35%;
+        position: absolute;
+        bottom: 20%;
+        left: 75%;
+    } 
+    .header-main{
+        margin-bottom: 4.5rem;
+    }
+}
+
+
+
+@media(min-width:1070px){
+    .iphones{
+        width: 33%;
+        position: absolute;
+        bottom: 20%;
+        left: 75%;
+    } 
+    .header-main{
+        margin-bottom: 6rem;
+    }
+    .text1{
+        font-size: 3rem;
+        transform: translateY(-20%);
+      }
+      .text2{
+          font-size: 1.1rem;
+       
+      }
+}
+
+@media(min-width:1150px){
+    .iphones{
+        width: 35%;
+        position: absolute;
+        bottom: 5%;
+        left: 75%;
+    } 
+    .header-main{
+        margin-bottom: 13rem;
+    }
+    .text1{
+        font-size: 3rem;
+        transform: translateY(-20%);
+      }
+      .text2{
+          font-size: 1.1rem;
+       
+      }
+}
+
+@media(min-width:1250px){
+  
+    .iphones{
+        width: 32%;
+        position: absolute;
+        bottom: 10%;
+        left: 75%;
+    } 
+    .header-main{
+        margin-bottom: 11.3rem;
+    }
+}
+
+@media(min-width:1350px){
+    .iphones{
+        width: 30%;
+        position: absolute;
+        bottom: 10%;
+        left: 75%;
+    } 
+    .header-main{
+        margin-bottom: 12rem;
+    }
+    .text1{
+        font-size: 3rem;
+        transform: translateY(-20%);
+      }
+      .text2{
+          font-size: 1.1rem;
+       
+      }
+}
+
+@media(min-width:1400px){
+
+    .iphones{
+        width: 30%;
+        position: absolute;
+        bottom: 5%;
+        left: 75%;
+    } 
+    .header-main{
+        margin-bottom: 15rem;
+    }
+    
+}
